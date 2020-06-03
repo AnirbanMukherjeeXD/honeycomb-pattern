@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <style>
-.h {height:182px;width:156.5px;background-image:url('images/hexB.png');background-size:cover;display:inline-block}
+.h {height:182px;width:156.5px;background-image:url('/images/hexB.png');background-size:cover;display:inline-block}
 </style>
 <body bgcolor="black">
 <center>
@@ -45,11 +45,11 @@ w=document.querySelectorAll(".h");
 for (i of w){
 	
 	i.addEventListener("mouseover", function(){
-		if(this.style.backgroundImage == 'url("images/hexW.png")'){
+		if(this.style.backgroundImage == 'url("/images/hexW.png")'){
 			
-			this.style.backgroundImage = 'url("images/hexB.png")'
+			this.style.backgroundImage = 'url("/images/hexB.png")'
 		}else{
-			this.style.backgroundImage = 'url("images/hexW.png")'
+			this.style.backgroundImage = 'url("/images/hexW.png")'
 		}
 		console.log("Yes");
 	});
