@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<style>
+.h {height:182px;width:156.5px;background-image:url('hexB.png');background-size:cover;display:inline-block}
+</style>
+<body bgcolor="black">
+<center>
+
+<div style="margin-top:40px">
+<div class="h"></div><div class="h"></div><div class="h"></div>
+</div>
+<div style="margin-top:-44px;">
+<div class="h"></div><div class="h"></div>
+</div>
+
+<div style="margin-top:-44px;">
+<div class="h"></div><div class="h"></div><div class="h"></div>
+</div>
+
+<div style="margin-top:-44px;">
+<div class="h"></div><div class="h"></div>
+</div>
+
+<div style="margin-top:-44px;">
+<div class="h"></div><div class="h"></div><div class="h"></div>
+</div>
+
+<div style="margin-top:-44px;">
+<div class="h"></div><div class="h"></div>
+</div>
+
+<div style="margin-top:-44px;">
+<div class="h"></div><div class="h"></div><div class="h"></div>
+</div>
+
+<div style="margin-top:-44px;">
+<div class="h"></div><div class="h"></div>
+</div>
+
+</center>
+
+<script>
+w=document.querySelectorAll(".h");
+
+for (i of w){
+	//alert(9);
+	i.addEventListener("mouseover", function(){
+		if(this.style.backgroundImage == 'url("hexW.png")'){
+			//alert("Black");
+			this.style.backgroundImage = 'url("hexB.png")'
+		}else{
+			this.style.backgroundImage = 'url("hexW.png")'
+		}
+		console.log("Yes");
+	});
+   }
+</script>
+
+</body>
+</html>
