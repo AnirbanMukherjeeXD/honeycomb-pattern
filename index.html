@@ -48,9 +48,11 @@ for (i of w){
 	i.addEventListener("touchstart", function(){
 		if(this.style.backgroundImage == 'url("https://raw.githubusercontent.com/AnirbanMukherjeeXD/honeycomb-pattern/master/images/HexW.png")'){
 			
-			this.style.backgroundImage = 'url("https://raw.githubusercontent.com/AnirbanMukherjeeXD/honeycomb-pattern/master/images/HexB.png")'
+			this.style.backgroundImage = 'url("https://raw.githubusercontent.com/AnirbanMukherjeeXD/honeycomb-pattern/master/images/HexB.png")';
+			this.style.filter='';
 		}else{
-			this.style.backgroundImage = 'url("https://raw.githubusercontent.com/AnirbanMukherjeeXD/honeycomb-pattern/master/images/HexW.png")'
+			this.style.backgroundImage = 'url("https://raw.githubusercontent.com/AnirbanMukherjeeXD/honeycomb-pattern/master/images/HexW.png")';
+			this.style.filter='drop-shadow(0px 0px 30px white)';
 		}
 		console.log("Yes");
 	});
