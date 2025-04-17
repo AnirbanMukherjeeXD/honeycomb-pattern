@@ -21,7 +21,7 @@ This repository contains a simple web-based honeycomb pattern page. When you hov
 ## 🌐 How to Use
 
 1. Clone this repository to your local machine.
-2. Open the `index.html` file in your browser to see the honeycomb pattern in action.
+2. Open the `index.html` file in your browser to see the honeycomb pattern in action. Or, [visit here](https://htmlpreview.github.io/?https://github.com/AnirbanMukherjeeXD/honeycomb-pattern/blob/master/index.html) to see it live.
 3. Hover your mouse over the page to light up the hexagons!
 
 
